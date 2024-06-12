@@ -24,13 +24,13 @@ jobs:
         node-version: '18'
 
     - name: Install Dependencies
-      run: npm install
+      run: bun install
 
     - name: Run Tests
-      run: npm test
+      run: bun test
 
     - name: Build Project
-      run: npm run build
+      run: bun run build
 
     - name: Deploy to Production
       if: github.ref == 'refs/heads/main'
