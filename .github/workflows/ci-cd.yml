@@ -24,7 +24,7 @@ jobs:
         node-version: '18'
 
     - name: Install Dependencies
-      run: bun install
+      run: npm install
 
     - name: Run Tests
       run: bun test
