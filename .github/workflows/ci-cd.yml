@@ -27,7 +27,7 @@ jobs:
       run: npm install
 
     - name: Run Tests
-      run: bun test
+      run: npm test
 
     - name: Build Project
       run: bun run build
